@@ -1,7 +1,7 @@
 require 'pry'
 
 class School
-  attr_accessor :add_student
+  attr_accessor
   attr_reader :name 
 
   def initialize(name)
@@ -11,6 +11,8 @@ class School
   def roster
     @roster = {}
   end 
-    
+  
+  def add_student(name, grade)
+  end 
 
 end 
