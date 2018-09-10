@@ -27,4 +27,3 @@ def sort
   end 
    
 end 
-binding.pry 
