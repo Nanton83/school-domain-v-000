@@ -21,5 +21,5 @@ class School
   end 
 
 def sort
-  @roster.each{|grade, students| @roster = students.sort}
+  @roster.
 end 
