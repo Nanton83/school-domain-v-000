@@ -13,7 +13,8 @@ class School
   end 
   
   def add_student(name, grade)
-    @roster << [name, grade]
+    student = [name, grade]
+    @roster << student
   end 
 
 end 
