@@ -23,5 +23,7 @@ class School
 def sort
   @roster.collect do |grade, students|
     @roster << students.sort
+  end 
   end
+  
 end 
