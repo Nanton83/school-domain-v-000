@@ -9,6 +9,6 @@ class School
   def roster
     @roster = {}
   end 
-    
+    binding.pry 
 
 end 
